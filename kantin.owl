@@ -1,216 +1,249 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#has_menu -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#has_menu">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#recommends -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#recommends">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#sold_at -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#sold_at">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#uses_ingredient -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#uses_ingredient">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beef -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beef">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Coffee -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Coffee">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Flour -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Flour">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Fruit -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Fruit">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Juice -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Juice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Nasi_Goreng -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Nasi_Goreng">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Rice -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Rice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Salt -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Salt">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Sugar -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Sugar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Tea -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Tea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok">
-        <rdf:type rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza">
-        <rdf:type rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
-    </owl:NamedIndividual>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beverages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kantin_Bengkok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tastes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tasteless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canteen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pondok_Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nasi_Goreng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spicy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sold_at"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kebab"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_menu"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Beef"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beverages"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee"/>
+        <Class IRI="#Beverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flour"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#Beverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kebab"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nasi_Goreng"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rice"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salt"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Beverages"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Canteen"/>
+        <Class IRI="#Taste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ingredient"/>
+        <Class IRI="#Taste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Menu"/>
+        <Class IRI="#Taste"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Bitter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canteen"/>
+        <NamedIndividual IRI="#Kantin_Bengkok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canteen"/>
+        <NamedIndividual IRI="#Pondok_Pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Salty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Sour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Spicy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taste"/>
+        <NamedIndividual IRI="#Tasteless"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Bitter"/>
+        <NamedIndividual IRI="#Kantin_Bengkok"/>
+        <NamedIndividual IRI="#Pondok_Pizza"/>
+        <NamedIndividual IRI="#Salty"/>
+        <NamedIndividual IRI="#Sour"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <NamedIndividual IRI="#Sweet"/>
+        <NamedIndividual IRI="#Tasteless"/>
+    </DifferentIndividuals>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_menu"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#recommends"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sold_at"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uses_ingredient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tastes"/>
+        <Class IRI="#Beverages"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tastes"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tastes"/>
+        <Class IRI="#Taste"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#has_menu"/>
+        <ObjectProperty IRI="#recommends"/>
+        <ObjectProperty IRI="#sold_at"/>
+        <ObjectProperty IRI="#tastes"/>
+        <ObjectProperty IRI="#uses_ingredient"/>
+    </DisjointObjectProperties>
+</Ontology>
 
 
 
