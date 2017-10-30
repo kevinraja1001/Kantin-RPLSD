@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7"
+     xml:base="http://www.semanticweb.org/absol/ontologies/2017/9/kantin-rplsd"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7">
+     ontologyIRI="http://www.semanticweb.org/absol/ontologies/2017/9/kantin-rplsd">
     <Prefix name="" IRI="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -13,235 +13,250 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Beef"/>
+        <Class abbreviatedIRI=":Beef"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sugar"/>
+        <Class abbreviatedIRI=":Sugar"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tea"/>
+        <Class abbreviatedIRI=":Tea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Beverages"/>
+        <Class abbreviatedIRI=":Beverages"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#uses_ingredient"/>
+        <ObjectProperty abbreviatedIRI=":uses_ingredient"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rice"/>
+        <Class abbreviatedIRI=":Rice"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Sweet"/>
+        <NamedIndividual abbreviatedIRI=":Sweet"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fruit"/>
+        <Class abbreviatedIRI=":Fruit"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#recommends"/>
+        <ObjectProperty abbreviatedIRI=":recommends"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Juice"/>
+        <Class abbreviatedIRI=":Juice"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kantin_Bengkok"/>
+        <NamedIndividual abbreviatedIRI=":Kantin_Bengkok"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Flour"/>
+        <Class abbreviatedIRI=":Flour"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Salt"/>
+        <Class abbreviatedIRI=":Salt"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tastes"/>
+        <ObjectProperty abbreviatedIRI=":tastes"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Tasteless"/>
+        <NamedIndividual abbreviatedIRI=":Tasteless"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Salty"/>
+        <NamedIndividual abbreviatedIRI=":Salty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Canteen"/>
+        <Class abbreviatedIRI=":Canteen"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Sour"/>
+        <NamedIndividual abbreviatedIRI=":Sour"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Pondok_Pizza"/>
+        <NamedIndividual abbreviatedIRI=":Pondok_Pizza"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Coffee"/>
+        <Class abbreviatedIRI=":Coffee"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bitter"/>
+        <NamedIndividual abbreviatedIRI=":Bitter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Food"/>
+        <Class abbreviatedIRI=":Food"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nasi_Goreng"/>
+        <Class abbreviatedIRI=":Nasi_Goreng"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Spicy"/>
+        <NamedIndividual abbreviatedIRI=":Spicy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Taste"/>
+        <Class abbreviatedIRI=":Taste"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Menu"/>
+        <Class abbreviatedIRI=":Menu"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#sold_at"/>
+        <ObjectProperty abbreviatedIRI=":sold_at"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Kebab"/>
+        <Class abbreviatedIRI=":Kebab"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_menu"/>
+        <ObjectProperty abbreviatedIRI=":has_menu"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#Beef"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Beef"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Beverages"/>
-        <Class IRI="#Menu"/>
+        <Class abbreviatedIRI=":Beverages"/>
+        <Class abbreviatedIRI=":Menu"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Coffee"/>
-        <Class IRI="#Beverages"/>
+        <Class abbreviatedIRI=":Coffee"/>
+        <Class abbreviatedIRI=":Beverages"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Flour"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Flour"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Food"/>
-        <Class IRI="#Menu"/>
+        <Class abbreviatedIRI=":Food"/>
+        <Class abbreviatedIRI=":Menu"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fruit"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Fruit"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Juice"/>
-        <Class IRI="#Beverages"/>
+        <Class abbreviatedIRI=":Juice"/>
+        <Class abbreviatedIRI=":Beverages"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Kebab"/>
-        <Class IRI="#Food"/>
+        <Class abbreviatedIRI=":Kebab"/>
+        <Class abbreviatedIRI=":Food"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Nasi_Goreng"/>
-        <Class IRI="#Food"/>
+        <Class abbreviatedIRI=":Nasi_Goreng"/>
+        <Class abbreviatedIRI=":Food"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rice"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Rice"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Salt"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Salt"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sugar"/>
-        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI=":Sugar"/>
+        <Class abbreviatedIRI=":Ingredient"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tea"/>
-        <Class IRI="#Beverages"/>
+        <Class abbreviatedIRI=":Tea"/>
+        <Class abbreviatedIRI=":Beverages"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#Canteen"/>
-        <Class IRI="#Taste"/>
+        <Class abbreviatedIRI=":Beef"/>
+        <Class abbreviatedIRI=":Flour"/>
+        <Class abbreviatedIRI=":Fruit"/>
+        <Class abbreviatedIRI=":Rice"/>
+        <Class abbreviatedIRI=":Salt"/>
+        <Class abbreviatedIRI=":Sugar"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Ingredient"/>
-        <Class IRI="#Taste"/>
+        <Class abbreviatedIRI=":Beverages"/>
+        <Class abbreviatedIRI=":Food"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Menu"/>
-        <Class IRI="#Taste"/>
+        <Class abbreviatedIRI=":Canteen"/>
+        <Class abbreviatedIRI=":Ingredient"/>
+        <Class abbreviatedIRI=":Menu"/>
+        <Class abbreviatedIRI=":Taste"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI=":Coffee"/>
+        <Class abbreviatedIRI=":Juice"/>
+        <Class abbreviatedIRI=":Tea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class abbreviatedIRI=":Kebab"/>
+        <Class abbreviatedIRI=":Nasi_Goreng"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Bitter"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Bitter"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Canteen"/>
-        <NamedIndividual IRI="#Kantin_Bengkok"/>
+        <Class abbreviatedIRI=":Canteen"/>
+        <NamedIndividual abbreviatedIRI=":Kantin_Bengkok"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Canteen"/>
-        <NamedIndividual IRI="#Pondok_Pizza"/>
+        <Class abbreviatedIRI=":Canteen"/>
+        <NamedIndividual abbreviatedIRI=":Pondok_Pizza"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Salty"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Salty"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Sour"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Sour"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Spicy"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Spicy"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Sweet"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Sweet"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Taste"/>
-        <NamedIndividual IRI="#Tasteless"/>
+        <Class abbreviatedIRI=":Taste"/>
+        <NamedIndividual abbreviatedIRI=":Tasteless"/>
     </ClassAssertion>
     <DifferentIndividuals>
-        <NamedIndividual IRI="#Bitter"/>
-        <NamedIndividual IRI="#Kantin_Bengkok"/>
-        <NamedIndividual IRI="#Pondok_Pizza"/>
-        <NamedIndividual IRI="#Salty"/>
-        <NamedIndividual IRI="#Sour"/>
-        <NamedIndividual IRI="#Spicy"/>
-        <NamedIndividual IRI="#Sweet"/>
-        <NamedIndividual IRI="#Tasteless"/>
+        <NamedIndividual abbreviatedIRI=":Bitter"/>
+        <NamedIndividual abbreviatedIRI=":Kantin_Bengkok"/>
+        <NamedIndividual abbreviatedIRI=":Pondok_Pizza"/>
+        <NamedIndividual abbreviatedIRI=":Salty"/>
+        <NamedIndividual abbreviatedIRI=":Sour"/>
+        <NamedIndividual abbreviatedIRI=":Spicy"/>
+        <NamedIndividual abbreviatedIRI=":Sweet"/>
+        <NamedIndividual abbreviatedIRI=":Tasteless"/>
     </DifferentIndividuals>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_menu"/>
+        <ObjectProperty abbreviatedIRI=":has_menu"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#recommends"/>
+        <ObjectProperty abbreviatedIRI=":recommends"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#sold_at"/>
+        <ObjectProperty abbreviatedIRI=":sold_at"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#uses_ingredient"/>
+        <ObjectProperty abbreviatedIRI=":uses_ingredient"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tastes"/>
-        <Class IRI="#Beverages"/>
+        <ObjectProperty abbreviatedIRI=":tastes"/>
+        <Class abbreviatedIRI=":Beverages"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tastes"/>
-        <Class IRI="#Food"/>
+        <ObjectProperty abbreviatedIRI=":tastes"/>
+        <Class abbreviatedIRI=":Food"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tastes"/>
-        <Class IRI="#Taste"/>
+        <ObjectProperty abbreviatedIRI=":tastes"/>
+        <Class abbreviatedIRI=":Taste"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#has_menu"/>
-        <ObjectProperty IRI="#recommends"/>
-        <ObjectProperty IRI="#sold_at"/>
-        <ObjectProperty IRI="#tastes"/>
-        <ObjectProperty IRI="#uses_ingredient"/>
+        <ObjectProperty abbreviatedIRI=":has_menu"/>
+        <ObjectProperty abbreviatedIRI=":recommends"/>
+        <ObjectProperty abbreviatedIRI=":sold_at"/>
+        <ObjectProperty abbreviatedIRI=":tastes"/>
+        <ObjectProperty abbreviatedIRI=":uses_ingredient"/>
     </DisjointObjectProperties>
 </Ontology>
 
