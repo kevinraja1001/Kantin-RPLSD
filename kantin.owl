@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#has_menu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#has_menu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#recommends -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#recommends">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#sold_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#sold_at">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#uses_ingredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#uses_ingredient">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Coffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Flour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Flour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Juice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Juice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Menu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Nasi_Goreng -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Nasi_Goreng">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Rice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Rice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Salt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Salt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Tea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Tea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Beverages"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
