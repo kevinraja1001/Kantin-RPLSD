@@ -126,6 +126,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
+    
+
+
     <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kebab">
@@ -193,13 +199,17 @@
 
     <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin_Bengkok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Pondok_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/absol/ontologies/2017/9/untitled-ontology-7#Kantin"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
